@@ -1,0 +1,19 @@
+{
+  "name": "nomad-tube",
+  "version": "1.0.0",
+  "description": "cloning youtube with vanilla and nodeJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugglecoder/nomad-tube.git"
+  },
+  "author": "park hyeon seong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugglecoder/nomad-tube/issues"
+  },
+  "homepage": "https://github.com/mugglecoder/nomad-tube#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
