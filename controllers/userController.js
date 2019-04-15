@@ -28,8 +28,10 @@ export const logout = (req, res) => {
   res.redirect(routes.home);
 };
 
-export const userDetail = (req, res) =>
+export const userDetail = (req, res) => {
+  console.log(req.params.id);
   res.render("userDetail", { pageTitle: "User Detail" });
+};
 
 export const editProfile = (req, res) =>
   res.render("editProfile", { pageTitle: "Edit Profile" });
